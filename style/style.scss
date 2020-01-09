@@ -4,12 +4,46 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
+body{
+
+}
+.buttons{
+    display: flex;
+    flex-direction:column;
+    width: 32rem;
+}
 .cake{
     height: 20rem;
+    width: 30rem;
+}
+.cake:hover{
+
 }
 .cheesecake{
     height: 20rem;
+    width: 30rem;
+}
+.cheesecake:hover{
+
 }
 .dessert-balls{
     height: 20rem;
+    width: 30rem;
+}
+.dessert-balls:hover{
+
+}
+.popsicle{
+    height: 20rem;
+    width: 30rem;
+}
+.popsicle:hover{
+
+}
+.more-dessert{
+    height: 20rem;
+    width: 30rem;
+}
+.more-dessert:hover{
+
 }

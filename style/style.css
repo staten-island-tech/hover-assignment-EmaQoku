@@ -14,31 +14,86 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 32rem;
+  width: 38rem;
 }
 
 .cake {
   height: 20rem;
   width: 30rem;
+  background-color: blue;
+  padding: 3rem;
+}
+
+.cake:hover {
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  background-color: yellow;
 }
 
 .cheesecake {
   height: 20rem;
   width: 30rem;
+  background-color: cornflowerblue;
+  padding: 3rem;
+}
+
+.cheesecake:hover {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  background-color: blueviolet;
+  width: 40rem;
+  height: 30rem;
 }
 
 .dessert-balls {
   height: 20rem;
   width: 30rem;
+  padding: 3rem;
+  background-color: darkcyan;
+}
+
+.dessert-balls:hover {
+  height: 30rem;
+  width: 40rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  background-color: cyan;
 }
 
 .popsicle {
-  height: 20rem;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 20rem;
+  height: 30rem;
+  background-color: #0000FF;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s, -webkit-transform 2s;
+}
+
+.popsicle:hover {
+  background-color: #FFCCCC;
   width: 30rem;
+  height: 40rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .more-dessert {
   height: 20rem;
   width: 30rem;
+  padding: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
